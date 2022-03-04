@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display&display=swap");
+
+.container {
+  width: 90%;
+  margin: auto;
+  font-family: "Playfair Display", serif;
+}
+.container h1 {
+  text-align: center;
+}
+
+.episode_id span {
+  border-radius: 360px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+}
+
+.series_airdate {
+  margin: 20px 0;
+}
+.episode_container {
+  width: 60%;
+  margin: 40px 20%;
+
+  border: 1px solid black;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgb(31, 31, 31);
+  color: rgb(202, 201, 201);
+}
+.episode_series_characters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.episode_container span {
+  background-color: white;
+  border-radius: 360px;
+  color: black;
+  padding: 10px;
+  font-size: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

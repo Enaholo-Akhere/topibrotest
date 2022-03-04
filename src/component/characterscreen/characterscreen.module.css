@@ -1,0 +1,37 @@
+contain_table {
+  margin: 0;
+}
+.containerChara {
+  margin-bottom: 50px;
+}
+
+.paginateBttns {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.paginateBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #2b2eff;
+  color: #2b3eff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.paginateBttns a:hover {
+  color: white;
+  background-color: #2b2eff;
+}
+
+.paginateActive a {
+  color: white;
+  background-color: #2b2eff;
+  height: 100%;
+}
