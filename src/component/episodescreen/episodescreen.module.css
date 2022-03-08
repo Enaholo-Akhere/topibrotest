@@ -5,8 +5,25 @@
   margin: auto;
   font-family: "Playfair Display", serif;
 }
+
+.grid_items {
+  width: 80%;
+  margin: auto;
+}
 .container h1 {
   text-align: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .container h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container h1 {
+    font-size: 1.3rem;
+  }
 }
 
 .episode_id span {
@@ -21,15 +38,13 @@
   margin: 20px 0;
 }
 .episode_container {
-  width: 60%;
-  margin: 40px 20%;
+  width: 100%;
+  margin: 40px auto;
 
-  border: 1px solid black;
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+  border: 1px solid #f9f9f9;
+  box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.3);
   border-radius: 5px;
   padding: 20px;
-  background-color: rgb(31, 31, 31);
-  color: rgb(202, 201, 201);
 }
 .episode_series_characters {
   display: flex;
